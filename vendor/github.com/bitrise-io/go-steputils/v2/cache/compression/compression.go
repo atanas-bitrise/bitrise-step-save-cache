@@ -198,7 +198,7 @@ func (a *Archiver) compressWithBinary(archivePath string, includePaths []string,
 	*/
 
 	tarArgs := []string{
-		"a"
+		"a",
 		"-pSuperSecurePassword12345",
 		"-mhe=on",
 		archivePath,
